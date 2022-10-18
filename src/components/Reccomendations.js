@@ -3,7 +3,12 @@ import React from "react";
 function Reccomendations() {
   return (
     <div>
-      <div class="d-flex justify-content-center h5" style={{fontFamily:'sans-serif'}}>Recomendations</div>
+      <div
+        class="d-flex justify-content-center h5"
+        style={{ fontFamily: "sans-serif" }}
+      >
+        Recomendations
+      </div>
       <div class="row row-cols-1 row-cols-sm-5 mt-2">
         <div class="card bg-gradient col mt-1 ms-1 btn">
           <img

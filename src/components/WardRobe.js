@@ -8,30 +8,37 @@ function WardRobe() {
         style={{ fontFamily: "sans-serif" }}
       >
         El Classic Wardrobe
-      </div>
+      </div> 
       <div
-        id="carouselExampleControlsNoTouching"
+        id="wardrobe"
         class="carousel slide w-100"
+        data-bs-ride="carousel"
         data-bs-touch="false"
       >
         <div class="carousel-inner" style={{ height: "15em" }}>
-          <div class="carousel-item active d-flex">
+          <div class="carousel-item active">
+            <div class="d-flex">
             <img src="red_suit.jpg" class="d-block w-100" alt="..." />
             <img src="peer.jpg" class="d-block w-100" alt="..." />
+            </div>
           </div>
-          <div class="carousel-item d-flex">
+          <div class="carousel-item">
+          <div class="d-flex">
             <img src="red_suit.jpg" class="d-block w-100" alt="..." />
             <img src="peer.jpg" class="d-block w-100" alt="..." />
+            </div>
           </div>
-          <div class="carousel-item d-flex">
+          <div class="carousel-item">
+          <div class="d-flex">
             <img src="red_suit.jpg" class="d-block w-100" alt="..." />
             <img src="peer.jpg" class="d-block w-100" alt="..." />
+            </div>
           </div>
         </div>
         <button
           class="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-target="#wardrobe"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -40,7 +47,7 @@ function WardRobe() {
         <button
           class="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-target="#wardrobe"
           data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
