@@ -4,11 +4,17 @@ function WardRobe() {
   return (
     <div class="d-flex justify-content-center flex-column w-100">
       <div
+        class="h5 d-flex justify-content-center"
+        style={{ fontFamily: "sans-serif" }}
+      >
+        El Classic Wardrobe
+      </div>
+      <div
         id="carouselExampleControlsNoTouching"
         class="carousel slide w-100"
         data-bs-touch="false"
       >
-        <div class="carousel-inner" style={{ height: "15em"}}>
+        <div class="carousel-inner" style={{ height: "15em" }}>
           <div class="carousel-item active d-flex">
             <img src="red_suit.jpg" class="d-block w-100" alt="..." />
             <img src="peer.jpg" class="d-block w-100" alt="..." />
