@@ -1,44 +1,67 @@
 import React from "react";
 
-function WardRobe() {
+function WardRobe(robes) {
   return (
-    <div class="d-flex justify-content-center flex-column w-100">
+    <div class="container d-flex justify-content-center">
       <div
-        class="h5 d-flex justify-content-center"
-        style={{ fontFamily: "sans-serif" }}
-      >
-        El Classic Wardrobe
-      </div> 
-      <div
-        id="wardrobe"
-        class="carousel slide w-100"
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
         data-bs-ride="carousel"
-        data-bs-touch="false"
       >
-        <div class="carousel-inner" style={{ height: "15em" }}>
-          <div class="carousel-item active">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
             <div class="d-flex">
-            <img src="red_suit.jpg" class="d-block w-100" alt="..." />
-            <img src="peer.jpg" class="d-block w-100" alt="..." />
+              <img
+                src="fashion1.png"
+                class="d-block"
+                style={{ height: "10em" }}
+                alt="..."
+              />
+              <img
+                src="fashion2.jpg"
+                class="d-block"
+                style={{ height: "10em" }}
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="d-flex">
+              <img
+                src="fashion1.png"
+                class="d-block"
+                style={{ height: "10em" }}
+                alt="..."
+              />
+              <img
+                src="fashion2.jpg"
+                class="d-block"
+                style={{ height: "10em" }}
+                alt="..."
+              />
             </div>
           </div>
           <div class="carousel-item">
-          <div class="d-flex">
-            <img src="red_suit.jpg" class="d-block w-100" alt="..." />
-            <img src="peer.jpg" class="d-block w-100" alt="..." />
-            </div>
-          </div>
-          <div class="carousel-item">
-          <div class="d-flex">
-            <img src="red_suit.jpg" class="d-block w-100" alt="..." />
-            <img src="peer.jpg" class="d-block w-100" alt="..." />
+            <div class="d-flex">
+              <img
+                src="/fashion1.png"
+                class="d-block"
+                style={{ height: "10em" }}
+                alt="..."
+              />
+              <img
+                src="/fashion2.jpg"
+                class="d-block"
+                style={{ height: "10em" }}
+                alt="..."
+              />
             </div>
           </div>
         </div>
         <button
           class="carousel-control-prev"
           type="button"
-          data-bs-target="#wardrobe"
+          data-bs-target="#carouselExampleDark"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -47,7 +70,7 @@ function WardRobe() {
         <button
           class="carousel-control-next"
           type="button"
-          data-bs-target="#wardrobe"
+          data-bs-target="#carouselExampleDark"
           data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
