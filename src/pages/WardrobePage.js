@@ -52,6 +52,9 @@ function WardrobePage() {
     return (
         <div>
             <HomeBar/>
+            <div class="h5 d-flex justify-content-center" style={{fontFamily:'sans-serif'}}>
+                El Classic Wardrobe
+            </div>
             <WardRobe />
             <div>
                 <Webcam ref={webcamRef} muted={true} style={{
